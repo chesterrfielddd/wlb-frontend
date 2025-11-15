@@ -41,12 +41,12 @@ export default function Home() {
   ];
 
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center">
+    <div className="h-[100vh] flex flex-col justify-center items-center space-y-2">
       <h1 className="self-center justify-center">just example text</h1>
-      <div className="h-[500px] w-[500px]">
+      <div className="h-[500px] w-[500px] rounded-2xl bg-[#191919]">
         <Radar data={radarData} />
       </div>
-      <div className="h-[500px] w-[500px]">
+      <div className="h-[500px] w-[500px] rounded-2xl bg-[#191919]">
         <PolarBar data={polarBarData} />
       </div>
     </div>
